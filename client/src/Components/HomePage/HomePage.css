@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainComp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 20vw;
+    margin-top: 1vw;
+}
