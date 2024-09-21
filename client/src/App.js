@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-         <MainNavbar />
+         {/* <MainNavbar /> */}
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/Login" element={<Login/>} />
